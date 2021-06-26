@@ -1,16 +1,16 @@
 import React from "react";
 import Footer from "./Footer.jsx";
 import Header from "./Header.jsx";
-import info from "./Info.jsx";
+import note from "./note.jsx";
 function App() {
   return (
     <div>
       <Header />
       <h1>Application</h1>
-      <Info> </Info>
-      <Info></Info>
-      <Info></Info>
-      <Info></Info>
+      <note> </note>
+      <note></note>
+      <note></note>
+      <note></note>
       <Footer />
     </div>
   );
